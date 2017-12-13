@@ -1,0 +1,127 @@
+{
+  "form": {
+    "id": "13b83cdc-aaed-48cb-860d-599bac8efbe8",
+    "name": "General survey app",
+    "description": null,
+    "version": 2,
+    "bounding_box": null,
+    "record_title_key": "11aa",
+    "title_field_keys": [
+      "11aa"
+    ],
+    "status_field": {
+      "type": "StatusField",
+      "label": "Status",
+      "key": "@status",
+      "data_name": "status",
+      "default_value": "planned",
+      "enabled": true,
+      "read_only": false,
+      "hidden": false,
+      "description": "",
+      "choices": [
+        {
+          "label": "Planned",
+          "value": "planned",
+          "color": "#87D30F"
+        },
+        {
+          "label": "Completed",
+          "value": "completed",
+          "color": "#1891C9"
+        }
+      ],
+      "required": false,
+      "disabled": false,
+      "default_previous_value": false
+    },
+    "auto_assign": false,
+    "hidden_on_dashboard": false,
+    "record_count": 0,
+    "geometry_types": [
+      "Point"
+    ],
+    "geometry_required": false,
+    "script": null,
+    "projects_enabled": null,
+    "assignment_enabled": null,
+    "elements": [
+      {
+        "type": "TextField",
+        "key": "11aa",
+        "label": "Survey name",
+        "description": null,
+        "required": false,
+        "disabled": false,
+        "hidden": false,
+        "data_name": "survey_name",
+        "default_value": null,
+        "visible_conditions_type": null,
+        "visible_conditions": null,
+        "required_conditions_type": null,
+        "required_conditions": null,
+        "numeric": false,
+        "pattern": null,
+        "pattern_description": null,
+        "min_length": null,
+        "max_length": null,
+        "default_previous_value": false
+      },
+      {
+        "type": "AddressField",
+        "key": "92a6",
+        "label": "Address",
+        "description": null,
+        "required": false,
+        "disabled": false,
+        "hidden": false,
+        "data_name": "address",
+        "default_value": null,
+        "visible_conditions_type": null,
+        "visible_conditions": null,
+        "required_conditions_type": null,
+        "required_conditions": null,
+        "auto_populate": true,
+        "default_previous_value": false
+      },
+      {
+        "type": "PhotoField",
+        "key": "5ab5",
+        "label": "Photos",
+        "description": null,
+        "required": false,
+        "disabled": false,
+        "hidden": false,
+        "data_name": "photos",
+        "default_value": null,
+        "visible_conditions_type": null,
+        "visible_conditions": null,
+        "required_conditions_type": null,
+        "required_conditions": null,
+        "min_length": null,
+        "max_length": null
+      },
+      {
+        "type": "VideoField",
+        "key": "715b",
+        "label": "Videos",
+        "description": null,
+        "required": false,
+        "disabled": false,
+        "hidden": false,
+        "data_name": "videos",
+        "default_value": null,
+        "visible_conditions_type": null,
+        "visible_conditions": null,
+        "required_conditions_type": null,
+        "required_conditions": null,
+        "track_enabled": true,
+        "audio_enabled": true,
+        "min_length": null,
+        "max_length": null
+      }
+    ],
+    "created_at": "2017-12-13T18:22:08Z",
+    "updated_at": "2017-12-13T18:44:56Z"
+  }
+}
